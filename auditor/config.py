@@ -33,7 +33,7 @@ class Config(object):
     ALLOW_EXCL = True  # DEPRECATED, USE BELOW INSTEAD! Allow ! commands as well as /
     CUSTOM_CMD = '/', '?', '.' # Set to ('/', '!') or whatever to enable it, like ALLOW_EXCL but with more custom handler!
     API_OPENWEATHER = '' # OpenWeather API
-    SPAMWATCH_API = '' # Your SpamWatch token
+    SPAMWATCH_API = 'oxfSgc0QHn1~sqhLfJrX4JAvyO5OkgSQ0FKPfg85H70RsO0GGD6Jn7Ag0VhXCUKp' # Your SpamWatch token
     WALL_API = ''
     CHROME_DRIVER = '/app/.chromedriver/bin/chromedriver'
     GOOGLE_CHROME_BIN = '/app/.apt/usr/bin/google-chrome'
