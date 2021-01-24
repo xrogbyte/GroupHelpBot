@@ -3,14 +3,14 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
-    OWNER_ID = ""
-    OWNER_USERNAME = "sushantgirdhar"
-    TELETHON_HASH = "" # for purge stuffs
-    TELETHON_ID = ""
+    API_KEY = "1514509132:AAGRldxiIha8C_aU7JwkEyguxVzxP0KA3t4"
+    OWNER_ID = "1191438732"
+    OWNER_USERNAME = "stfubeech"
+    TELETHON_HASH = "7a8704afa675c39ec926782e798366a9" # for purge stuffs
+    TELETHON_ID = "2620155"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://agrdofxy:kR6mjgBCyURGkfwDjZc3OdbGSxXfsyUp@satao.db.elephantsql.com:5432/agrdofxy"
     MESSAGE_DUMP = ""  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = []
